@@ -1,9 +1,4 @@
-/**
-* Template Name: Logis - v1.3.0
-* Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
@@ -23,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const selectHeader = document.querySelector('#header');
   if (selectHeader) {
     document.addEventListener('scroll', () => {
-      window.scrollY > 100 ? selectHeader.classList.add('sticked') : selectHeader.classList.remove('sticked');
+      window.scrollY > 40 ? selectHeader.classList.add('sticked') : selectHeader.classList.remove('sticked');
     });
   }
 
@@ -107,10 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Initiate glightbox
    */
-  const glightbox = GLightbox({
-    selector: '.glightbox'
-  });
-
+ 
   /**
    * Init swiper slider with 1 slide at once in desktop view
    */

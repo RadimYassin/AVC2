@@ -18,7 +18,7 @@
 
 /* Colors */
 :root {
-  --color-default: #0f1521;
+  --color-default: #121317;
   --color-primary:#219EBC;
   
   --color-secondary:#022232;
@@ -126,6 +126,8 @@ section {
     font-size: 38px;
   }
 }
+/*  logo design*/
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -305,27 +307,33 @@ section {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 30px 0;
+  padding: 5px 0px;
+  
+
 }
 
 .header.sticked {
   background: rgba(14, 29, 52, 0.9);
-  padding: 15px 0;
+  padding: 10px 0px;
+
   box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
 }
 
-.header .logo img {
-  max-height: 40px;
-  margin-right: 6px;
+.header .logo  {
+  
+  height: 70px;
+  width: 130px;
+ margin-left: -10px;
+display: flex;
+justify-content: start;
+align-items: center;
+}
+.header .logo img  {
+ 
+  width: 100%;
+
 }
 
-.header .logo h1 {
-  font-size: 30px;
-  margin: 0;
-  font-weight: 700;
-  color: #fff;
-  font-family: var(--font-primary);
-}
 
 /*--------------------------------------------------------------
 # Desktop Navigation
@@ -660,9 +668,17 @@ section {
 }
 .hero-img{
 
-  margin-bottom: 40px;
-}
 
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-img img{
+
+ width: 100%;
+
+}
 
 
 
